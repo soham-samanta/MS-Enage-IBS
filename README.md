@@ -1,5 +1,4 @@
 # IBS (Investigation Bureau Service)
-This Project is a part of Microsoft Engage 2022 Program. Submitted by [Soham Samanta](https://www.linkedin.com/in/soham-samanta-5732b41b5/) <br>
 <img src="/static/ms.png" alt="Micorsoft Engage Banner" height="75px">
 <ul>
     <li>Intern Engage is a program for engineering students across India graduating in 2024. It is designed to provide a platform for engineering students to accelerate their growth and foster industry-relevant skills through mentorship, coding challenges, workshops and networking opportunities.</li>
@@ -36,16 +35,16 @@ Cloud Service Used : Heroku <br>
 Database : SQLite3 
 
 ## SetUp on Your Local (Instruction):
-<ul>
-    <li>Install HomeBrew on You Mac : <br>  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" </li>
-    <li>Install Python3 : $ brew install python3 </li>
-    <li>Install PIP : $ python3 get-pip.py</li>
-    <li>Install requirements : $ pip3 install -r requirements.txt</li>
-    <li>Install CMake : $ brew install cmake</li>
-    <li>Install Dlib : $ brew install dlib</li>
-    <li>Now open the folder in terminal</li>
-    <li>Run in Local Host : $ python3 manage.py runserver</li>
-    <li>Visit : http://localhost:8000/ </li>
-</ul>
 
-[NOTE] All commands preceeding $ are to be executed in Terminal. <br> These instruction are specially made for MacOS.
+<li>Install HomeBrew on You Mac : <br>  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" </li>
+<li>Install Python3 : $ brew install python3 </li>
+<li>Install PIP : $ python3 get-pip.py</li>
+<li>Install requirements : $ pip3 install -r requirements.txt</li>
+<li>Install CMake : $ brew install cmake</li>
+<li>Install Dlib : $ brew install dlib</li>
+<li>Now open the folder in terminal</li>
+<li>Run in Local Host : $ python3 manage.py runserver</li>
+<li>Visit : http://localhost:8000/ </li>
+
+[NOTE] All commands preceeding $ are to be executed in Terminal. <br> These instruction are specially made for MacOS. <br>
+This Project is a part of Microsoft Engage 2022 Program. Submitted by [Soham Samanta](https://www.linkedin.com/in/soham-samanta-5732b41b5/) <br>
