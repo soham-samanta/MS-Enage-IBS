@@ -31,10 +31,14 @@ Combination of all ML models done with Voting Classifier & combined all differen
 FrontEnd : ![HTML5](https://img.shields.io/badge/-HTML5-000?&logo=html5&logoColor=E34F26)
            ![CSS](https://img.shields.io/badge/-CSS-000?&logo=css3&logoColor=1572B6)
            ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript&logoColor=ddc508)
+<br>
 BackEnd : ![Python](https://img.shields.io/badge/-python-000?&logo=python&logoColor=B62829)
+<br>
 FrameWork : ![BootStrap5](https://img.shields.io/badge/-BootStrap5-000?&logo=bootstrap&logoColor=violet)
             ![MVT](https://img.shields.io/badge/-MVT-000?&logo=django&logoColor=green)
+<br>
 Cloud Service Used : ![Heroku](https://img.shields.io/badge/-Heroku-000?&logo=heroku&logoColor=violet)
+<br>
 Database : ![SQLite3](https://img.shields.io/badge/-SQLite-000?&logo=sqlite&logoColor=003B57)
 
 ## SetUp on Your Local (Instruction):
