@@ -39,7 +39,7 @@ FrameWork : ![BootStrap5](https://img.shields.io/badge/-BootStrap5-000?&logo=boo
 <br>
 Cloud Service Used : ![Heroku](https://img.shields.io/badge/-Heroku-000?&logo=heroku&logoColor=violet)
 <br>
-Database : ![SQLite3](https://img.shields.io/badge/-SQLite-000?&logo=sqlite&logoColor=003B57)
+Database : ![SQLite3](https://img.shields.io/badge/-SQLite3-000?&logo=sqlite&logoColor=lightblue)
 
 ## SetUp on Your Local (Instruction):
 <ul>
