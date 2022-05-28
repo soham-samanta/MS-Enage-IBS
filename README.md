@@ -6,7 +6,7 @@
 </ul>
 
 ### About IBS Project 
-<table>
+<!-- <table>
     <tr>
         <td><img src="/static/logo.png" alt="IBS Logo" height="25px" width="25px"></td>
         <td>
@@ -16,15 +16,18 @@
             Combination of all ML models done with Voting Classifier & combined all different detection and recognition models into a pipeline. <br>
         </td>
     </tr>
-</table>
+</table> -->
+
 <img src="/static/logo.png" alt="IBS Logo" height="100px" width="100px">
 IBS is a Face Recognition Project which uses OpenCV and Deep Neural Networks in it's core. <br>
 Built with Django and support responsiveness, hence suitable for (Mobile, PC, Tablets) <br>
 It includes ML models like logistic regression, support vector machines, random forest. <br>
 Combination of all ML models done with Voting Classifier & combined all different detection and recognition models into a pipeline. 
 <br>
+
 ## Deployed Project Link: https://soham-engage-ibs.herokuapp.com/
 <br>
+
 ## Tech Stack Used : <br>
 FrontEnd : HTML , CSS , JavaScript <br>
 BackEnd : Python3 <br>
