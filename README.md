@@ -37,7 +37,7 @@ BackEnd : ![Python](https://img.shields.io/badge/-python-000?&logo=python&logoCo
 FrameWork : ![BootStrap5](https://img.shields.io/badge/-BootStrap5-000?&logo=bootstrap&logoColor=violet)
             ![MVT](https://img.shields.io/badge/-MVT-000?&logo=django&logoColor=green)
 <br>
-Cloud Service Used : ![Heroku](https://img.shields.io/badge/-Heroku-000?&logo=heroku&logoColor=violet)
+Cloud Service : ![Heroku](https://img.shields.io/badge/-Heroku-000?&logo=heroku&logoColor=violet)
 <br>
 Database : ![SQLite3](https://img.shields.io/badge/-SQLite3-000?&logo=sqlite&logoColor=lightblue)
 
@@ -53,8 +53,6 @@ Database : ![SQLite3](https://img.shields.io/badge/-SQLite3-000?&logo=sqlite&log
     <li>Run in Local Host : $ python3 manage.py runserver</li>
     <li>Visit : http://localhost:8000/ </li>
 </ul>
-<br>
-
 [NOTE] All commands preceeding $ are to be executed in Terminal. <br> These instruction are specially made for MacOS. <br>
 <br>
 This Project is a part of Microsoft Engage 2022 Program. Submitted by [Soham Samanta](https://www.linkedin.com/in/soham-samanta-5732b41b5/) <br>
