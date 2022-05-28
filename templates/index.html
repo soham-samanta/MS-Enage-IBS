@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBS</title>
+    <!-- BootStrap 5.2v CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- BootStrap 5.2v JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+  <!-- Internal CSS  -->
+  <style>
+    body{
+      background-image: url("/static/banner2.jpeg");
+    }
+  </style>
+  <!-- Internal CSS  -->
+
+<body>
+
+  <header>
+  <div>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img style="margin: 5px;" src="/static/logo.png" alt="Logo" width="80" height="80">  
+            Investigation Bureau Service
+         </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="police">Face Recognition</a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" class="nav-link" href="admin">Admin</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Terms & Condition
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a target="_blank" class="dropdown-item" href="https://acehacker.com/microsoft/engage2022/">MS Engage'22</a></li>
+                  <li><a target="_blank" class="dropdown-item" href="https://www.microsoft.com/en-in">Microsoft.com</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a target="_blank" class="dropdown-item" href="https://en.wikipedia.org/wiki/Facial_recognition_system">FR System Wiki</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <!-- navbar  -->
+    </header>
+
+      <!-- spinners  -->
+        <center>
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-secondary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-warning" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        <br><br>
+      <!-- spinners  -->
+
+      <!-- alerts  -->
+      <div id="liveAlertPlaceholder"></div>
+      <button type="button" class="btn btn-primary" id="liveAlertBtn">Show Live alert</button>
+      <br><br>
+      <!-- alerts  -->
+
+      <!-- cards  -->
+      <div class="card" style="width: 18rem;">
+        <img src="/static/3.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Face Analysis</h5>
+          <p class="card-text">Click on Login button to enter the Face Analysis Department. Choose a picture & Verify.</p>
+          <a href="police" class="btn btn-primary">Login</a>
+        </div>
+      </div>
+      <br>
+      <!-- cards  --> 
+    </center>
+
+
+    <!-- Footer  -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a target="_blank" class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/soham.samnata" role="button"
+          ><i class="fab fa-facebook-f"></i
+          ></a>
+  
+          <!-- Twitter -->
+          <a target="_blank" class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/sohamtwt" role="button"
+          ><i class="fab fa-twitter"></i
+          ></a>
+  
+          <!-- Google -->
+          <a target="_blank" class="btn btn-outline-light btn-floating m-1" href="mailto:sohamsamanta2@gmail.com" role="button"
+          ><i class="fab fa-google"></i
+          ></a>
+  
+          <!-- Instagram -->
+          <a target="_blank" class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/sohamsamanta2/" role="button"
+          ><i class="fab fa-instagram"></i
+          ></a>
+  
+          <!-- Linkedin -->
+          <a target="_blank" class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/soham-samanta2000/" role="button"
+          ><i class="fab fa-linkedin-in"></i
+          ></a>
+  
+          <!-- Github -->
+          <a target="_blank" class="btn btn-outline-light btn-floating m-1" href="https://github.com/soham-samanta" role="button"
+          ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+            Facial recognition has become a commonplace tool for law enforcement officers at both the federal and municipal levels. Out of the approximately 42 federal agencies that employ law enforcement officers, the Government Accountability Office (GAO) discovered in 2021 that about 20, or half, used facial recognition.
+        </p>
+      </section>
+      <!-- Section: Text -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="https://sohamsamanta@gmail.com/">Soham Samanta</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer  -->
+
+    
+   
+
+
+    <!-- JavaScript  -->
+    <script>
+      const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+      const alert = (message, type) => {
+        const wrapper = document.createElement('div')
+        wrapper.innerHTML = [
+          `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+          `   <div>${message}</div>`,
+          '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+          '</div>'
+        ].join('')
+
+        alertPlaceholder.append(wrapper)
+      }
+
+      const alertTrigger = document.getElementById('liveAlertBtn')
+      if (alertTrigger) {
+        alertTrigger.addEventListener('click', () => {
+          alert('Greetings !!! Welcome to IBS. Kindly find the Login button below to enter the Face Recognition Zone.', 'success')
+        })
+      }
+    </script>
+    <!-- JavaScript  -->
+
+
+</body>
+</html>
+
+
+
+
+
+
