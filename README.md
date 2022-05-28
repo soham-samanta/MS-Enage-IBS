@@ -26,7 +26,6 @@ Combination of all ML models done with Voting Classifier & combined all differen
 <br>
 
 ## Deployed Project Link: https://soham-engage-ibs.herokuapp.com/
-<br>
 
 ## Tech Stack Used : <br>
 FrontEnd : HTML , CSS , JavaScript <br>
@@ -38,7 +37,7 @@ Database : SQLite3
 
 ## SetUp on Your Local (Instruction):
 [NOTE] All commands preceeding $ are to be executed in Terminal. These instruction are specially made for MacOS.
-<li>Install HomeBrew on You Mac : <br> $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" </li>
+<li>Install HomeBrew on You Mac : <br>  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" </li>
 <li>Install Python3 : $ brew install python3 </li>
 <li>Install PIP : $ python3 get-pip.py</li>
 <li>Install requirements : $ pip3 install -r requirements.txt</li>
