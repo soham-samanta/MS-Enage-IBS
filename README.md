@@ -53,6 +53,9 @@ Database : ![SQLite3](https://img.shields.io/badge/-SQLite3-000?&logo=sqlite&log
     <li>Run in Local Host : $ python3 manage.py runserver</li>
     <li>Visit : http://localhost:8000/ </li>
 </ul>
+
 [NOTE] All commands preceeding $ are to be executed in Terminal. <br> These instruction are specially made for MacOS. <br>
+
 <br>
+
 This Project is a part of Microsoft Engage 2022 Program. Submitted by [Soham Samanta](https://www.linkedin.com/in/soham-samanta-5732b41b5/) <br>
