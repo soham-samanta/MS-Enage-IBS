@@ -28,23 +28,29 @@ Combination of all ML models done with Voting Classifier & combined all differen
 ## Deployed Project Link: https://soham-engage-ibs.herokuapp.com/
 
 ## Tech Stack Used : <br>
-FrontEnd : HTML (https://img.shields.io/badge/-HTML5-000?&logo=html5&logoColor=E34F26) , CSS , JavaScript <br>
+FrontEnd : ![HTML5](https://img.shields.io/badge/-HTML5-000?&logo=html5&logoColor=E34F26)
+           ![CSS](https://img.shields.io/badge/-CSS-000?&logo=css3&logoColor=1572B6)
+           ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript&logoColor=ddc508)
+<!-- HTML , CSS , JavaScript <br> -->
 BackEnd : Python3 <br>
 FrameWork : BootStrap5 , MVT  <br>
 Cloud Service Used : Heroku <br>
 Database : SQLite3 
 
 ## SetUp on Your Local (Instruction):
-
-<li>Install HomeBrew on You Mac : <br>  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" </li>
-<li>Install Python3 : $ brew install python3 </li>
-<li>Install PIP : $ python3 get-pip.py</li>
-<li>Install requirements : $ pip3 install -r requirements.txt</li>
-<li>Install CMake : $ brew install cmake</li>
-<li>Install Dlib : $ brew install dlib</li>
-<li>Now open the folder in terminal</li>
-<li>Run in Local Host : $ python3 manage.py runserver</li>
-<li>Visit : http://localhost:8000/ </li>
+<ul>
+    <li>Install HomeBrew on You Mac : <br>  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" </li>
+    <li>Install Python3 : $ brew install python3 </li>
+    <li>Install PIP : $ python3 get-pip.py</li>
+    <li>Install requirements : $ pip3 install -r requirements.txt</li>
+    <li>Install CMake : $ brew install cmake</li>
+    <li>Install Dlib : $ brew install dlib</li>
+    <li>Now open the folder in terminal</li>
+    <li>Run in Local Host : $ python3 manage.py runserver</li>
+    <li>Visit : http://localhost:8000/ </li>
+</ul>
+<br>
 
 [NOTE] All commands preceeding $ are to be executed in Terminal. <br> These instruction are specially made for MacOS. <br>
+<br>
 This Project is a part of Microsoft Engage 2022 Program. Submitted by [Soham Samanta](https://www.linkedin.com/in/soham-samanta-5732b41b5/) <br>
